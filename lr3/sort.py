@@ -15,7 +15,7 @@ end_np = time.time()
 numpy_sort_time = end_np - start_np
 print(f"NumPy сортування зайняло: {numpy_sort_time:.4f} секунд")
 
-# Сортування
+# Сортування Сортування з Numba
 @njit
 def numba_sort(arr):
     # Просте сортування методом вставки (для прикладу, підходить лише для демонстрації)
